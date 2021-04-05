@@ -10,11 +10,12 @@
     width: 160px;
     height: 134px;
     transition-duration: 0.4s;
-    transition-property: margin, width, height;
+    transition-property: margin, padding, width, height;
   }
 
   &__img:hover {
-    margin: 0 0 42px;
+    margin: 0 0 37px;
+    padding: 8px 6px;
     width: 100%;
     height: 100%;
     outline: 3px solid #f3f3f3;
