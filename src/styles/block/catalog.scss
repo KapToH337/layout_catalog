@@ -4,14 +4,14 @@
 }
 
 .section {
-  width: $sectionWidth;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax($cardWidth, $cardWidth));
   justify-content: center;
+  width: $sectionWidth;
+  column-gap: $cardMargin * 2;
 
   &__card {
-    margin: 0 $cardMargin 50px;
+    margin-bottom: 50px;
   }
 }
 
