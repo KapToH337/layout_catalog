@@ -9,10 +9,7 @@
   justify-content: center;
   width: $sectionWidth;
   column-gap: $cardMargin;
-
-  &__card {
-    margin-bottom: 50px;
-  }
+  row-gap: 50px;
 }
 
 .paragraph {
